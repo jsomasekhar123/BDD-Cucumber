@@ -1,0 +1,5 @@
+com\sgtesting\DriverScript\Driverscripts.class
+org\example\AppTest.class
+com\sgtesting\Pom\Actipage.class
+com\sgtesting\Stepdefinition\Hooks.class
+com\sgtesting\Stepdefinition\Stepdefinitions.class
