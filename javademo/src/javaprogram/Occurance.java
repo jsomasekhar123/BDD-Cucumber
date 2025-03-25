@@ -14,7 +14,7 @@ public class Occurance {
         // Printing character counts
         for (int i = 0; i < count.length; i++) {
             if (count[i] > 0) {
-                System.out.print((char) i + "" + count[i]);
+                System.out.print((char) i + " " + count[i]);
             }
         }
 
