@@ -16,7 +16,7 @@ public class ScenarioCreateEmployee {
 	{
 		try
 		{
-			System.out.println("This test has created the New Employee Record in the Database");
+
 			RestAssured.baseURI="http://localhost:9090/sgtesting/api/v1/employees";
 			RequestSpecification httpRequest=RestAssured.given();
 			
@@ -26,6 +26,7 @@ public class ScenarioCreateEmployee {
 			//headers
 			httpRequest.header("Content-Type", "application/json");
 			httpRequest.body(file);
+			System.out.println("Post request");
 			//Response
 			
 			Response response=httpRequest.post();
